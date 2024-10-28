@@ -8,7 +8,7 @@ use warnings;
 # Input: (1) filePath
 # Output: Counts of 2-mer end motifs
 
-my $refPath = 'chrE.fa'; # reference genome
+my $refPath = 'EBV.fa'; # reference genome
 my $filePath = "$ARGV[0]";
 
 my %ref = &loadRef($refPath);
